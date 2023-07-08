@@ -1,26 +1,34 @@
+import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import { styled } from '@mui/system';
 
-const FlexBox = styled(Box)({
+const HeaderWrapper = styled(Box)({
   display: 'flex',
+  justifyContent: 'flex-start',
+  paddingTop: '2rem',
+  paddingBottom: '1rem',
 });
 
-const CenteredFlexBox = styled(FlexBox)({
+const FooterWrapper = styled(Box)({
+  display: 'flex',
   justifyContent: 'center',
-  alignItems: 'center',
+  paddingTop: '3rem',
 });
 
-const FullSizeCenteredFlexBox = styled(CenteredFlexBox)({
-  width: '100%',
-  height: '100%',
+const PaperLayoutWrapper = styled(Box)({
+  display: 'flex',
+  justifyContent: 'flex-end',
 });
 
-const Image = styled('img')({
-  width: '10%',
-  height: '10%',
-  margin: 4,
+const PaperLayout = styled(Paper)({
+  width: '92%',
+  height: '100vh',
+  paddingLeft: '2rem',
 });
 
-export { Image };
-
-export { FlexBox, CenteredFlexBox, FullSizeCenteredFlexBox };
+export { 
+  HeaderWrapper,
+  FooterWrapper,
+  PaperLayoutWrapper,
+  PaperLayout 
+};

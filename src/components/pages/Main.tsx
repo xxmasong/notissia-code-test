@@ -1,14 +1,16 @@
-import { FullSizeCenteredFlexBox } from '@/styles/styled';
+import { PaperContainer, SectionsContainer } from '@/components/organisms';
+import { Footer, Header } from '@/components/molecules';
+import { Divider } from '@mui/material';
 
 function Main() {
-  const isPortrait = true;
-
   return (
-    <>
-      <FullSizeCenteredFlexBox flexDirection={isPortrait ? 'column' : 'row'}>
-        { /* TODO implement here */ }
-      </FullSizeCenteredFlexBox>
-    </>
+    <PaperContainer>
+      <Header />
+      <Divider />
+      <SectionsContainer />
+      <Divider />
+      <Footer />
+    </PaperContainer>
   );
 }
 

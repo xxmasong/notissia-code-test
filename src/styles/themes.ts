@@ -2,9 +2,8 @@ import { ThemeOptions } from '@mui/material/styles';
 
 const mainTheme: ThemeOptions = {
   palette: {
-    mode: 'light',
     background: {
-      default: '#fafafa',
+      default: '#eff3f2',
       paper: '#fff',
     },
     primary: {
