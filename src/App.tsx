@@ -2,7 +2,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Main } from '@/components/pages';
+import { Main } from '@/components';
 import mainTheme from '@/styles/themes';
 
 function App() {

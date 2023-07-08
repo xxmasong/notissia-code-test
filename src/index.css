@@ -1,10 +1,11 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Century Gothic', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E %3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E %3Cg%3E%3Cg transform='translate(0.000000,512.000000) scale(0.100000,-0.100000)'%3E%3Cpath d='M1905.5,4977.4c-36.4-23-76.6-67-90-93.8c-30.6-67,99.6-7806.1,134.1-7894.2c30.6-74.7,122.6-126.4,222.1-126.4c91.9,0,65.1-24.9,1133.8,1003.5l488.4,469.2l63.2-128.3c34.5-70.9,363.9-752.6,729.7-1516.8c586-1223.8,674.1-1394.2,731.6-1432.5c47.9-34.5,82.4-42.1,132.1-36.4c51.7,5.7,1580,722,1836.6,859.9c72.8,40.2,126.4,124.5,124.5,203c0,53.6-174.3,434.7-722,1572.3C6293.1-1315.7,5973.3-633.9,5981-628.2c9.6,7.7,463.5,70.9,1011.2,141.7c547.7,70.9,1024.6,139.8,1059.1,155.1c70.8,32.6,137.9,130.2,137.9,201.1c0,26.8-15.3,76.6-34.4,109.2c-19.2,38.3-302.6,285.4-712.5,624.3c-373.5,308.3-1714,1417.2-2976.1,2464.8c-1264,1045.7-2319.2,1913.2-2346,1928.5C2047.3,5033,1978.3,5027.2,1905.5,4977.4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), auto;
 }
 
 code {
