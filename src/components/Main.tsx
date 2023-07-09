@@ -5,7 +5,7 @@ function Main() {
   return (
     <PaperContainer>
       <Header />
-      
+      <Sections />
       <Footer />
     </PaperContainer> 
   );
